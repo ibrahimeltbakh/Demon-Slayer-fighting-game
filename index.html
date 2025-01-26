@@ -11,7 +11,6 @@
       }
     </style>
   </head>
-
   <body>
     <!-- big Container -->
     <div style="position: relative; display: inline-block">
@@ -23,8 +22,7 @@
           width: 100%;
           align-items: center;
           padding: 20px;
-        "
-      >
+        ">
         <!-- playerHealth -->
         <div
           style="
@@ -33,16 +31,14 @@
             width: 100%;
             display: flex;
             justify-content: flex-end;
-          "
-        >
+          ">
           <div
             style="
               background-color: rgba(214, 1, 1, 0.48);
               height: 20px;
               width: 100%;
               border-radius: 8px;
-            "
-          ></div>
+            "></div>
           <div
             id="playerHealth"
             style="
@@ -54,8 +50,7 @@
               bottom: 0;
               width: 100%;
               border-radius: 8px;
-            "
-          ></div>
+            "></div>
         </div>
         <!-- Timer -->
         <div
@@ -75,8 +70,7 @@
             font-weight: 900;
             color: aliceblue;
             border-radius: 25%;
-          "
-        >
+          ">
           100
         </div>
         <!-- Enemy Health -->
@@ -87,8 +81,7 @@
               background-color: rgba(214, 1, 1, 0.48);
               height: 20px;
               border-radius: 8px;
-            "
-          ></div>
+            "></div>
           <div
             id="enemyHealth"
             style="
@@ -99,8 +92,7 @@
               left: 0;
               bottom: 0;
               border-radius: 8px;
-            "
-          ></div>
+            "></div>
         </div>
       </div>
       <div
@@ -122,17 +114,23 @@
           left: 0;
           right: 0;
           display: none;
-        "
-      >
+        ">
         Tie
       </div>
       <canvas></canvas>
     </div>
-    <div>
-      NOTE: How To Play ? <br />Player 1 : can use (q , space , e ,r ) to fight
-      && (w , a,d) to move and jump <br />Player 2 : can use (arrow-down ,
-      <b> , </b> , . , / ) && (arrow-right , arrow-left, arrow-up ) to move and
-      jump
+    <div
+      style="
+        background-color: cyan;
+
+        box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+        padding: 5px;
+      ">
+      <pre>
+        How to Play
+        Player1: use q || space || e || r to fight | w , a , d to move and jump.  
+        Player2: use , ||   .   || /      to fight | ⬆️,⬅️,➡️ to move and jump.
+      </pre>
     </div>
     <script src="./js/utls.js"></script>
     <script src="./js/classes.js "></script>
